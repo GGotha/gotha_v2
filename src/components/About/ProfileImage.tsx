@@ -9,7 +9,7 @@ export const ProfileImage = () => {
       className="relative w-48 h-48 mx-auto mb-8"
     >
       <img
-        src="../../profile.png"
+        src="profile.png"
         alt="Gustavo Gotha"
         className="rounded-full w-full h-full object-cover shadow-lg"
       />
