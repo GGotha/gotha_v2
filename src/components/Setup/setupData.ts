@@ -7,7 +7,6 @@ export const setupData = [
       "Apple Magic Trackpad",
       "Apple AirPods Pro",
       "Apple Watch Series 9",
-      "HyperX Quadcast S",
     ],
   },
   {
