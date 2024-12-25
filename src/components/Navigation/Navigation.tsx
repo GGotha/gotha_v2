@@ -1,12 +1,13 @@
+import { useLocation } from 'react-router-dom';
 import { NavLink } from './NavLink';
 
 export const Navigation = () => {
-  const currentPath = window.location.pathname;
+  const { pathname } = useLocation();
 
   return (
     <nav className="flex gap-6">
-      <NavLink href="/" isActive={currentPath === '/'}>Home</NavLink>
-      <NavLink href="/setup" isActive={currentPath === '/setup'}>Setup</NavLink>
+      <NavLink href="/" isActive={pathname === '/'}>Home</NavLink>
+      <NavLink href="/setup" isActive={pathname === '/setup'}>Setup</NavLink>
     </nav>
   );
 };
