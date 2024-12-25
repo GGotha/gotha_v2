@@ -9,7 +9,7 @@ export const ProfileImage = () => {
       className="relative w-48 h-48 mx-auto mb-8"
     >
       <img
-        src="https://gustavogotha.com.br/_next/image?url=%2Fme.png&w=640&q=75"
+        src="../../profile.png"
         alt="Gustavo Gotha"
         className="rounded-full w-full h-full object-cover shadow-lg"
       />
